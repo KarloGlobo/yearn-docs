@@ -3,35 +3,35 @@ title: faq.yearn.finance
 tags: "docs, faq, published"
 ---
 
-# FAQ
+# Häufig gestellte Fragen
 
-## General
+## FAQ - Frequenty Asked Questions
 
-### Is it safe to invest money in Yearn?
+### Ist es sicher in Yearn zu investieren?
 
-- Please do your own research and decide for yourself.
+- Bitte unternimm deine eigenen Nachforschungen und entscheide dann für dich selbst.
 
-### Is Yearn audited?
+### Gibt es ein audit? Wurde die Funktionalität der Yearn Finance Smart Contracts von unabhängigen dritten Überprüft?
 
-- Yes, you can find the list of audits [here](https://github.com/iearn-finance/audits).
+- Ja, eine Liste der Audits findet sich [hier](https://github.com/iearn-finance/audits).
 
-## Feedback & Support
+## Fragen & Lösungen
 
-If you have questions about how to do anything, we can help you on:
+Bei Fragen aller Art findest du Hilfe unter:
 
 - [Discord](http://discord.yearn.finance)
 - [Telegram](https://t.me/yearnfinance)
 
-But if you think something can be improved, or you found a bug, we want to squash it. Please post it here:
+Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden hast, wollen wir davon Wissen. Bitte teile deine Infos dazu hier:
 
-- [Github](https://github.com/iearn-finance) — create a new issue in the relevant repository.
-- [Forum](https://gov.yearn.finance/c/general-chat/feedback/2) — post in the feedback category.
+- [Github](https://github.com/iearn-finance) — schildere die Begebenheiten in der jeweiligen Repository.
+- [Forum](https://gov.yearn.finance/c/general-chat/feedback/2) — schreibe in die Feedback Kategorie.
 
-## Products
+## Produkte
 
 ### yearn.finance
 
-- [yearn.finance](https://yearn.finance/) hosts UIs for the **Vaults**, **Earn**, **Zap**, **APR**, and **Cover** products.
+- [yearn.finance](https://yearn.finance/) beherbergt die Seite für die Verwaltung von **Vaults**, **Earn**, **Zap**, **APR**, und **Cover** Produkten.
 
 ### Vaults
 
