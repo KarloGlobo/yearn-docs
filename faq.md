@@ -37,126 +37,129 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 - [yearn.finance/vaults](https://yearn.finance/vaults)
 
-#### What is a Vault?
 
-- Vaults employ strategies to automate the best yield farming opportunities available.
-- They were designed so that the community could work together to build new strategies to find the best yield.
-- Andre explains [vaults](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) and [delegated vaults](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in these two blog posts.
-- Simply put vaults can do this:
-  - Use any asset as liquidity.
-  - Use liquidity as collateral and manage collateral at a safe level in order to avoid a default.
-  - Borrow stablecoins.
-  - Put the stablecoins to work on some farming.
-  - Reinvest earned stablecoins.
+#### Was ist ein Vault?
 
-#### Can't I just do all this myself though?
+- In Vaults(engl. Tresore) werden Strategien zur Automatisierung der besten wirtschaftlichen Ertragsmöglichkeiten eingesetzt.
+- Sie wurden so konzipiert, dass die Gemeinschaft gemeinsam neue Strategien entwickeln kann, um den besten Ertrag zu erzielen.
+- Andre erklärt [Vaults] (https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613) und [delegierte Vaults] (https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2) in diesen beiden Blog-Beiträgen.
+- Einfach ausgedrückt: Vaults können folgendes tun:
+  - Jeden Vermögenswert als Liquidität nutzen.
+  - Liquidität als Sicherheit verwenden und Sicherheiten auf einem sicheren Niveau verwalten, um einen Ausfall zu vermeiden.
+  - Leihen Sie Stablecoins.
+  - Setzen Sie die Stablecoins ein, um weitere ertragsmöglichkeiten zu generieren.
+  - Nutzen Sie verdiente Stablecoins zum reinvestieren.
 
-- Yes you could, but vaults help you save on gas, keep a good collateral/debt ratio to avoid defaults, and auto optimizes for the highest yielding stablecoin strategies, even while you are sleeping.
+#### Kann ich das alles nicht einfach selbst machen?
 
-#### I see ROI on the vaults page. Is it the current one?
+- Ja, das könnten Sie, aber Vaults helfen Ihnen dabei, Transaktionskosten zu sparen, ein gutes Verhältnis zwischen Sicherheiten und Schulden zu halten, um Ausfälle zu vermeiden, und automatische Optimierungen für die ertragreichsten Stablecoin-Strategien vorzunehmen, selbst wenn Sie schlafen.
 
-- No. This is the historical average for that vault. Current APY / returns are not shown as vaults are a beta product and being tested live.
-- Various third party sites provide APY and other info, they are listed below in [Statistics](https://docs.yearn.finance/faq#statistics).
+#### Ich sehe ROI auf der Seite der Vaults. Ist es die aktuelle?
 
-#### What are the risks?
+- Nein. Dies ist der historische Durchschnitt für diesen Vault. Die aktuellen APY/Renditen werden nicht angezeigt, da es sich bei den Tresoren um ein Beta-Produkt handelt, das live getestet wird.
+- Verschiedene Websites von Drittanbietern bieten APY und andere Informationen an; sie sind unten unter [Statistik] (https://docs.yearn.finance/faq#statistics) aufgeführt.
 
-- While the assets deposited can't decrease, the debt of the vault can increase. If a strategy does not manage to outperform the debt, then a portion of the asset will be impermanently locked. If a strategy later outperforms the debt again, the asset will again be available to withdraw. There are mechanisms in the vaults to prevent this but nothing is bulletproof.
-- As of now, only _some_ Vaults have been [audited](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
-- Smart contract risk with any contracts that the vaults interact with.
+#### Was sind die Risiken?
 
-#### What are the different yVaults?
+- Während die hinterlegten Vermögenswerte nicht abnehmen können, kann sich die Verschuldung des Vaults erhöhen. Wenn eine Strategie es nicht schafft, die Schulden zu übertreffen, wird ein Teil des Vermögens vorübergehend gesperrt. Wenn es einer Strategie später wieder gelingt, die Verschuldung zu übertreffen, steht das Vermögen wieder zur Auszahlung zur Verfügung. Es gibt Mechanismen in den Vaults die dies verhindern, aber nichts ist kugelsicher.
+- Bis jetzt sind nur _einige_ Vaults [geprüft] worden (https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
+- Grundsätzliche Smart-Contract und Protokoll Risiken bei allen Schnitstellen, mit denen die Vaults interagieren.
 
-**yLINK and yaLINK**
+#### Was sind die verschiedenen yTresorräume?
 
-- **What's the difference between LINK and aLINK vaults?**
-  - None in terms of returns. Deposited LINK will be deposited into Aave generating aLINK \(Aave interest bearing LINK\). So depositing directly into aLINK vault you are one step ahead in the process.
-- **Why is the yield different for aLINK and LINK vaults?**
-  - aLINK has a 0.5% insurance "fee" \(this is returned when it is outperformed\). LINK vault doesn't have this fee to avoid double dipping.
+**yLINK und yaLINK**
+
+- **Was ist der Unterschied zwischen LINK und aLINK Vaults?**
+  - Keiner in Bezug auf die Erträge. Eingezahlter LINK wird in Aave eingezahlt, der aLINK generiert \(Aave verzinslicher LINK\). Wenn Sie also direkt in den aLINK Tresor einlegen, sind Sie in diesem Prozess einen Schritt voraus.
+- **Warum ist der Ertrag bei aLINK und LINK Vaults unterschiedlich?**
+  - aLINK hat eine Versicherungs-"Gebühr" von 0,5% \(diese wird zurückgezahlt, wenn sie übertroffen wird\). Der LINK Tresor hat diese Gebühr nicht, um doppelte  Gebühren zu vermeiden.
 
 **yETH and yWETH**
 
-- **What's the difference between WETH and ETH vaults?**
-  - None in terms of returns. Deposited ETH it will be wrapped into WETH anyway. The WETH vault just makes it easier for other Ethereum protocols to interact with this vault.
-- **How does ETH vault protect itself from liquidation?**
-  - This vault reads ETH price directly from the Maker's OSM \(Oracle Security Model\), a system that reads Oracle price 1 hour in advance. This gives the vault 1 hour to pay the CDP debt before liquidation. Also, the vault keeps increasing collateralization by depositing profit on each harvest call.
+- **Was ist der Unterschied zwischen WETH und ETH-Vaults?**
+  - Keiner in Bezug auf die Rendite. ETH wird bei der Einlage in den Vault sowieso in WETH umgewandelt(wrapped). Der WETH-Tresor macht es für andere Ethereum-Protokolle nur einfacher, mit diesem Vault zu interagieren.
+- **Wie schützt sich der ETH-Vault vor der Liquidation?**
+  - Dieser Vault liest den ETH-Preis direkt aus dem Maker OSM \(Oracle Security Model\), einem System, das den Oracle-Preis 1 Stunde im Voraus liest. Dies gibt dem Tresor 1 Stunde Zeit, um die Collaterized-Debt-Position(CDP) Schulden vor der Liquidation zu bezahlen. Außerdem erhöht der Tresor die Besicherung weiter, indem er bei jedem Harvest-Call einen Gewinn hinterlegt.
 
-**Other Vaults**
+**Andere Vaults**
 
-- v1 Money Market vaults, formerly called iEarn, can be found [here](https://yearn.finance/earn).
-- Additional vaults can be found [here](https://yearn.finance/vaults).
+- v1 Vaults, früher iEarn genannt, finden Sie [hier](https://yearn.finance/earn).
+- Weitere Vaults finden Sie [hier](https://yearn.finance/vaults).
 
-#### If the current strategy for the yCRV vault is farming CRV does it just get added to my balance when I withdrawal?
+#### Wenn die aktuelle Strategie für den yCRV-Vault das Farmen von CRV ist, wird es dann einfach zu meinem Kontostand hinzugefügt, wenn ich mich auszahlen lasse?
 
-- No. The vault will farm CRV then sell it on the market automatically. When you withdrawal you will get more yCRV.
+- Nein. Der Vault wird CRV farmen und es dann automatisch auf dem Markt verkaufen. Wenn Sie sich auszahlen lassen, erhalten Sie mehr yCRV.
 
-#### Why isn't yCRV worth \$1, it's a stable coin right?
+#### Warum ist yCRV nicht \$1 wert, es ist doch eine Stablecoin, oder?
 
-- No, yCRV is not worth \$1, and no it is NOT a stablecoin. You can think of yCRV as an index of yield bearing stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\) that also generates yield \(trading fees from the Curve Y pool\) as well. Therefore the price of yCRV is non-decreasing.
+- Nein, yCRV ist nicht \$1 wert, und nein, es ist KEIN Stablecoin. Sie können sich den yCRV als einen Index von renditetragenden Stablecoins \(yDAI+yUSDC+yUSDT+yTUSD\\) vorstellen, der ebenfalls Rendite generiert \(Handelsgebühren aus dem Curve Y Pool\). Daher ist der Preis von yCRV nicht fallend.
 
-#### If I unstake my yCRV from the yCRV vault, does that then revert it back to the Curve Y pool at Curve, or do I have to do something else like restake it there?
+#### Wenn ich mein yCRV aus dem yCRV-Vault entnehme, wird es dann wieder in den Curve Y-Pool bei Curve zurückgeführt, oder muss ich etwas anderes tun, um es dort zurückführen?
 
-- When you withdraw your yCRV from the vault, you get back yCRV + plus interest accrued - fees, all in yCRV. Since it is the yCRV token you got back, it is already staked in Curve Y pool making stablecoin swap fees. No need to do anything else with Curve, unless you want to stake it [here](https://dao.curve.fi/minter/gauges) to generate CRV.
+- Wenn Sie Ihr yCRV aus dem Vault entnehmen, erhalten Sie yCRV + (aufgelaufene Zinsen - Gebühren) zurück, alles in yCRV. Da es sich um den yCRV-Token handelt, den Sie zurückbekommen haben, ist er bereits im Curve Y-Pool eingesetzt, was zu Stablecoin-Swap-Gebühren führt. Sie brauchen mit Curve nichts weiter zu tun, es sei denn, Sie wollen es [hier] (https://dao.curve.fi/minter/gauges) einsetzen, um CRV zu erzeugen.
 
-#### Why can’t we get a better APY for the YFI vault?
+#### Warum können wir keinen besseren APY für den YFI-Tresor bekommen?
 
-- You can’t get the same numbers for two completely different coins. The new sBTC is following the same strategy that the yCRV vault using curve liquidity pool. The obvious answer is that there aren’t many safe platforms accepting YFI as stake so there aren’t much valid strategies for the YFI vault right now.
+- Man kann nicht die gleichen Erträge für zwei völlig unterschiedliche Coins bekommen. Der neue sBTC verfolgt die gleiche Strategie wie der YCRV Vault mit Curve Liquidity Pool. Die offensichtliche Antwort ist, dass es nicht viele sichere Plattformen gibt, die YFI als Sicherheit akzeptieren, so dass es im Moment nicht viele ertragreiche Strategien für den YFI-Vault gibt.
 
-#### I deposited into a vault, what will I get out when I withdrawal?
+#### Ich habe in einen Vault eingezahlt, was bekomme ich zurück, wenn ich mich aus dem Vault auszahlen lasse?
 
-- You can only withdraw the crypto asset type that you put in.
-- You will get the amount you originally put in, plus the yield you've earned, minus the fees.
+- Sie können nur den Krypto-Asset-Typ entnehmen, den Sie eingelegt haben.
+- Sie erhalten den Betrag, den Sie ursprünglich eingezahlt haben, plus die Rendite die Sie verdient haben, abzüglich der Gebühren.
 
-#### What are the Fees?
+#### Wie hoch sind die Gebühren?
 
-- **0.5% fee** on funds withdrawn from active strategies
-  - Each vault has some amount of the total funds idle and most of them active in the strategy. The idle funds are the difference between `vault holdings` and `strategy holdings`, you can see them on [feel the Yearn](https://feel-the-Yearn.app/).
-  - When you withdraw, if your funds come from the idle funds, you won't be charged any withdrawal fee. If they come from the strategy, you will be charged the 0.5% fee.
-- **5% fee** on additional yield
-  - For community-made strategies, like the new yETH vault, currently 10% of this fee goes to the strategy creator. The other 90% goes to the treasury and is then distributed to governance.
+- **0,5% Gebühr** auf Gelder, die von aktiven Strategien ausgezahlt werden
+  - In jedem Vault ist ein gewisser Anteil des Gesamtfonds ungenutzt und die meisten von ihnen sind in der Strategie aktiv. Die ungenutzten Mittel sind die Differenz zwischen den "Vaultbeständen" und den "Strategiebeständen". Sie können sie auf [feel the Yearn](https://feel-the-Yearn.app/) sehen.
+  - Wenn Sie Ihre Gelder aus den ungenutzten Mitteln abheben, werden Ihnen keine Abhebungsgebühren berechnet. Wenn sie aus den Strategiebeständen stammen, wird Ihnen die 0,5%ige Gebühr berechnet.
+- **5% Gebühr** auf zusätzliche Rendite
+  - Für gemeinschaftlich entwickelte Strategien, wie den neuen YETH-Tresor, gehen derzeit 10% dieser Gebühr an den Ersteller der Strategie. Die restlichen 90% gehen an die Schatzkammer und werden dann an die Governance verteilt.
 
-#### Can you explain the 5% fee on additional yield?
+#### Können Sie die 5% Gebühr für den zusätzlichen Ertrag erklären?
 
-- Formerly this was called a "5% fee on subsidized gas" which confused literally everyone except Andre. Technically it is not a performance fee — it's a fee on the some profit-generating transactions that incur high gas costs and are critical to the vault's internal functioning.
-- Each vault has multiple levels. Here are two examples that show where this fee is taken when the `harvest()` function is called.
-- yCRV Vault example:
-  - Level 1: stablecoins earn interest in money markets \(compound, aave, dydx\)
-  - Level 2: the level 1 tokens \(yDAI, yUSDC, yUSDT, and yTUSD\) are provided as liquidty to the yCRV pool to earn trading fees
-  - Level 3: the strategy earns CRV token rewards which it recycles into yCRV—**this is the only level where the 5% fee is taken.**
-- USDC Vault example:
-  - Level 1: Interest for being lent out at Compound
-  - Level 2: COMP liquidated to USDC
-  - Level 3: The strategy earns DF tokens rewards from DForce that get harvested and sold for USDC—**this is the only level where the 5% fee is taken.**
+- Früher wurde dies als "5% Gebühr auf subventioniertes Gas" bezeichnet, was buchstäblich jeden außer Andre verwirrte. Technisch gesehen handelt es sich nicht um eine Erfolgsgebühr - es ist eine Gebühr auf einige gewinnbringende Transaktionen, die hohe Transaktionskosten verursachen und für das interne Funktionieren des Vaults entscheidend sind.
+- Jeder Vault hat mehrere Ebenen. Hier sind zwei Beispiele, die zeigen, wie diese Gebühr zustande kommt, wenn die Funktion `harvest()` aufgerufen wird.
+- yCRV Vault Beispiel:
+  - Level 1: Stablecoins werden auf den Geldmärkten verzinst \(compound, aave, dydx\)
+  - Level 2: Die Token der Ebene 1 (yDAI, yUSDC, yUSDT und yTUSD\) werden dem yCRV-Pool als liquide Mittel zur Verfügung gestellt, um Handelsgebühren zu verdienen.
+  - Level 3: Die Strategie verdient CRV-Token-Belohnungen, die sie in yCRV-** recycelt. Dies ist die einzige Stufe, auf der die 5% Gebühr genommen wird.**
+- USDC Tresor Beispiel:
+  - Level 1: Zinsen generieren für das Verleihen in Compound
+  - Level 2: COMP an USDC liquidiert
+  - Level 3: Die Strategie verdient DF-Token-Belohnungen von DForce, die geerntet und für USDC-** verkauft werden. Dies ist die einzige Stufe, auf der die 5% Gebühr genommen wird.**
 
-#### Where do the fees go?
+#### Woozu werden die Gebühren genutzt?
 
-- They go to a dedicated treasury [contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
-- From the treasury they stay up to the \$500k limit, over that amount they are redirected to the governance staking [contract](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
+- Sie gehen an einen speziellen Treasury [Smart-Contract] (https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
+- In der Schatzkammer bleiben sie bis zu einem Limit von \$500k, über diesen Betrag hinaus werden sie an den Governance Staking [Vertrag] weitergeleitet (https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
 
-#### Did the fees always go there?
+#### Wurden die Gebühren immer so genutzt?
 
-- No, when Yearn started they went directly to Andre's [address](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
-- Then we handed off to the [multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) and fees went directly there.
-- And before our current gov v2, staking rewards went [here](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701)
+- Nein, als Yearn begann, gingen sie direkt an die [Adresse] von Andre (https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
+- Dann übergaben wir sie an die [Multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52), und die Gebühren gingen direkt dorthin.
+- Und vor unserer derzeitigen Governance v2 wurden die Einsatzprämien [hier](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701) verteilt.
 
-#### Yield
+#### Ertrag
 
-- We plan to make a dashboard in the future that will clearly show your current APY of all the positions you have open. Currently for the Vaults as they are still in beta we are not showing the APY live, but it is post on [twitter](https://twitter.com/iearnfinance) around once a day. You can roughly estimate the yield you are getting by looking at what the [current strategy](https://feel-the-Yearn.vercel.app/) is farming and checking what its APY is.
-- For example if yCRV vault is farming the CRV token, you can check what the yield is on [Curve's homepage](https://www.curve.fi/) for the Y pool
+- Wir planen, in Zukunft ein Dashboard zu erstellen, das Ihren aktuellen APY von allen offenen Positionen die Sie haben übersichtlich darstellt. Derzeit zeigen wir das APY für die Vaults, da sie sich noch in der Beta-Phase befinden, nicht live aber es werden die aktuellen APY's etwa einmal täglich auf [twitter] (https://twitter.com/iearnfinance) gepostet. Sie können den Ertrag, den Sie erzielen grob schätzen, indem Sie sich die [aktuelle Strategie] (https://feel-the-Yearn.vercel.app/) ansehen und prüfen wie hoch der APY ist.
+- Wenn z.B. der YCRV-Vault das CRV-Token farmt, können Sie den Ertrag auf [Curve's homepage](https://www.curve.fi/) für den Y-Pool überprüfen.
 
-### Vault Strategies
+### Tresor-Strategien
 
-#### What is a Vault Strategy?
+#### Was ist eine Tresorraumstrategie?
 
-- Yearn's vault strategies are modular smart contracts for each vault that tells it what assets to borrow, which assets to farm, and where it should sell the farmed assets.
+- Yearn's Tresorstrategien sind modulare, intelligente Verträge für jeden Tresor, in denen festgelegt ist, welche Vermögenswerte ausgeliehen werden sollen, welche Vermögenswerte bewirtschaftet werden sollen und wo die bewirtschafteten Vermögenswerte verkauft werden sollen.
 
-#### What are the current strategies?
+#### Was sind die aktuellen Strategien?
 
-- You can view the current strategies implemented at [feel-the-Yearn](https://feel-the-Yearn.vercel.app/).
-- In the future we plan to make a dashboard to make the strategies and APY easy to understand.
+- Sie können die derzeit implementierten Strategien unter [feel-the-Yearn](https://feel-the-Yearn.vercel.app/) einsehen.
+- Für die Zukunft planen wir die Erstellung eines Dashboards, um die Strategien und den APY leicht verständlich zu machen.
 
-#### Who is in control of the strategies?
+#### Wer hat die Kontrolle über die Strategien?
 
-- Developers write them but the multi-sig, instructed by YFI voters, decides if they will be implemented or not.
+- Die Entwickler schreiben sie, aber das Multi-Sig, das von den YFI-Wählern angewiesen wird, entscheidet, ob sie umgesetzt werden oder nicht.
+
+Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
 
 #### How can I make a strategy?
 
