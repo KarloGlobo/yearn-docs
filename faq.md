@@ -62,7 +62,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 #### Was sind die Risiken?
 
 - Während die hinterlegten Vermögenswerte nicht abnehmen können, kann sich die Verschuldung des Vaults erhöhen. Wenn eine Strategie es nicht schafft, die Schulden zu übertreffen, wird ein Teil des Vermögens vorübergehend gesperrt. Wenn es einer Strategie später wieder gelingt, die Verschuldung zu übertreffen, steht das Vermögen wieder zur Auszahlung zur Verfügung. Es gibt Mechanismen in den Vaults die dies verhindern, aber nichts ist kugelsicher.
-- Bis jetzt sind nur _einige_ Vaults [geprüft] worden (https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf).
+- Bis jetzt sind nur _einige_ Vaults [geprüft](https://github.com/iearn-finance/yearn-audits/blob/bdb3868c98e4fe2427898db05154942a9192efb1/MixBytes%20-%20Yearn.Finance%20protocol%20v.1%20Smart%20Contracts%20Audit%20Security%20Audit%20Report.pdf) worden.
 - Grundsätzliche Smart-Contract und Protokoll Risiken bei allen Schnitstellen, mit denen die Vaults interagieren.
 
 #### Was sind die verschiedenen yTresorräume?
@@ -96,7 +96,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 #### Wenn ich mein yCRV aus dem yCRV-Vault entnehme, wird es dann wieder in den Curve Y-Pool bei Curve zurückgeführt, oder muss ich etwas anderes tun, um es dort zurückführen?
 
-- Wenn Sie Ihr yCRV aus dem Vault entnehmen, erhalten Sie yCRV + (aufgelaufene Zinsen - Gebühren) zurück, alles in yCRV. Da es sich um den yCRV-Token handelt, den Sie zurückbekommen haben, ist er bereits im Curve Y-Pool eingesetzt, was zu Stablecoin-Swap-Gebühren führt. Sie brauchen mit Curve nichts weiter zu tun, es sei denn, Sie wollen es [hier] (https://dao.curve.fi/minter/gauges) einsetzen, um CRV zu erzeugen.
+- Wenn Sie Ihr yCRV aus dem Vault entnehmen, erhalten Sie yCRV + (aufgelaufene Zinsen - Gebühren) zurück, alles in yCRV. Da es sich um den yCRV-Token handelt, den Sie zurückbekommen haben, ist er bereits im Curve Y-Pool eingesetzt, was zu Stablecoin-Swap-Gebühren führt. Sie brauchen mit Curve nichts weiter zu tun, es sei denn, Sie wollen es [hier](https://dao.curve.fi/minter/gauges) einsetzen, um CRV zu erzeugen.
 
 #### Warum können wir keinen besseren APY für den YFI-Tresor bekommen?
 
@@ -130,18 +130,18 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 #### Wozu werden die Gebühren genutzt?
 
-- Sie gehen an einen speziellen Treasury [Smart-Contract] (https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
-- In der Schatzkammer bleiben sie bis zu einem Limit von \$500k, über diesen Betrag hinaus werden sie an den Governance Staking [Vertrag] weitergeleitet (https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992).
+- Sie gehen an einen speziellen Treasury [Smart-Contract](https://etherscan.io/address/0x93A62dA5a14C80f265DAbC077fCEE437B1a0Efde).
+- In der Schatzkammer bleiben sie bis zu einem Limit von \$500k, über diesen Betrag hinaus werden sie an den Governance Staking [Vertrag](https://etherscan.io/address/0xBa37B002AbaFDd8E89a1995dA52740bbC013D992) weitergeleitet.
 
 #### Wurden die Gebühren immer so genutzt?
 
-- Nein, als Yearn begann, gingen sie direkt an die [Adresse] von Andre (https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c).
+- Nein, als Yearn begann, gingen sie direkt an die [Adresse](https://etherscan.io/address/0x2d407ddb06311396fe14d4b49da5f0471447d45c) von Andre.
 - Dann übergaben wir sie an die [Multisig](https://etherscan.io/address/0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52), und die Gebühren gingen direkt dorthin.
 - Und vor unserer derzeitigen Governance v2 wurden die Einsatzprämien [hier](https://etherscan.io/address/0xb01419E74D8a2abb1bbAD82925b19c36C191A701) verteilt.
 
 #### Ertrag
 
-- Wir planen, in Zukunft ein Dashboard zu erstellen, das Ihren aktuellen APY von allen offenen Positionen die Sie haben übersichtlich darstellt. Derzeit zeigen wir das APY für die Vaults, da sie sich noch in der Beta-Phase befinden, nicht live aber es werden die aktuellen APY's etwa einmal täglich auf [twitter] (https://twitter.com/iearnfinance) gepostet. Sie können den Ertrag, den Sie erzielen grob schätzen, indem Sie sich die [aktuelle Strategie] (https://feel-the-Yearn.vercel.app/) ansehen und prüfen wie hoch der APY ist.
+- Wir planen, in Zukunft ein Dashboard zu erstellen, das Ihren aktuellen APY von allen offenen Positionen die Sie haben übersichtlich darstellt. Derzeit zeigen wir das APY für die Vaults, da sie sich noch in der Beta-Phase befinden, nicht live aber es werden die aktuellen APY's etwa einmal täglich auf [twitter](https://twitter.com/iearnfinance) gepostet. Sie können den Ertrag, den Sie erzielen grob schätzen, indem Sie sich die [aktuelle Strategie](https://feel-the-Yearn.vercel.app/) ansehen und prüfen wie hoch der APY ist.
 - Wenn z.B. der YCRV-Vault das CRV-Token farmt, können Sie den Ertrag auf [Curve's homepage](https://www.curve.fi/) für den Y-Pool überprüfen.
 
 ### Vault-Strategien
@@ -188,7 +188,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 #### Was ist Zap?
 
 - Mit Zap können Benutzer unterstützte Tokens mit nur einer Vertragsinteraktion umwandeln, um Transaktionskosten zu reduzieren.
-- Zaps wurden von DefiZap hergestellt, das jetzt [Zapper.fi] (https://zapper.fi) als eine Art All-in-one DeFi-Routing-Dienst ist.
+- Zaps wurden von DefiZap hergestellt, das jetzt [Zapper.fi](https://zapper.fi) als eine Art All-in-one DeFi-Routing-Dienst ist.
 
 #### Warum einen Zap verwenden?
 
@@ -205,7 +205,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### yInsure / Cover
 
-- [yinsure.finance] (https://yinsure.finance/)
+- [yinsure.finance](https://yinsure.finance/)
 
 #### Was ist yInsure?
 
@@ -222,17 +222,17 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 #### yLiquidate
 
-- [yliquidate.finance] (https://yliquidate.finance/)
+- [yliquidate.finance](https://yliquidate.finance/)
 - 0 Kapital automatisierte Liquidationen für Aave \(testnet\).
 
 #### ySwap
 
-- [yswap.exchange] (https://yswap.exchange/)
+- [yswap.exchange](https://yswap.exchange/)
 - Einseitig automatisierter Market Maker \(Test im Mainnet\).
 
 #### yBorrow
 
-- [yborrow.finance] (https://yborrow.finance/)
+- [yborrow.finance](https://yborrow.finance/)
 - Kreditdelegation Vaults von Smart-Contracts zu Smart-Contracts für die Kreditvergabe\(testnet\).
 
 ## Kommunikation
@@ -245,7 +245,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 - [Telegramm](https://t.me/yearnfinance) - Hauptchat.
 - [Telegramm](https://t.me/yearncommunity) - Chat Handel/Soziales/Support.
 - Twitter
-  - [yearn.finance] (https://twitter.com/iearnfinance?s=20) - Offizieller Twitter von Yearn
+  - [yearn.finance](https://twitter.com/iearnfinance?s=20) - Offizieller Twitter von Yearn
   - [Andre Cronje](https://twitter.com/AndreCronjeTech?s=20) - Gründer und Schöpfer von Yearn
   - [yLearnfinance](https://twitter.com/yLearnfinance) - Yearn Info
   - [learn2yearn](https://twitter.com/learn2Yearn) - Yearn Info
@@ -279,11 +279,11 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 #### Wie stimme ich ab?
 
-- Staken Sie Ihr YFI, damit können Sie Ihre Stimme für YIPs abgeben, die auf dem Voting [Dashboard] (https://ygov.finance/vote) on-Chain sind.
+- Staken Sie Ihr YFI, damit können Sie Ihre Stimme für YIPs abgeben, die auf dem Voting [Dashboard](https://ygov.finance/vote) on-Chain sind.
 
 #### Kann ich abstimmen, wenn sich mein YFI im YFI-Vault befindet?
 
-- Nein, Ihre YFI muss in den Governance [Vertrag] (https://ygov.finance/staking) staked sein, um abstimmen zu können.
+- Nein, Ihre YFI muss in den Governance [Vertrag](https://ygov.finance/staking) staked sein, um abstimmen zu können.
 
 #### Wo kann ich die YIPs einsehen?
 
@@ -295,12 +295,12 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 #### Was muss ich tun, um Belohnungen mit meinem YFI zu erhalten?
 
-- Alles, was Sie tun müssen, ist YFI bei [ygov.finance/stake] (https://ygov.finance/stake) zu staken, und Sie erhalten eine Belohnung wenn die Treasury bei oder über $500k liegt. Sie können die Adresse der Treasury [hier] überprüfen (https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52).
+- Alles, was Sie tun müssen, ist YFI bei [ygov.finance/stake](https://ygov.finance/stake) zu staken, und Sie erhalten eine Belohnung wenn die Treasury bei oder über $500k liegt. Sie können die Adresse der Treasury [hier](https://zapper.fi/dashboard?address=0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52) überprüfen.
 - Beachten Sie, dass Sie bei einem Staking Belohnungen erhalten (solange diese nicht an die Treasury gehen), aber Sie können sie nur innerhalb von 3 Tagen nach der Abstimmung einfordern.
 
 #### Ist es für die Abstimmung von Bedeutung, mein YFI zu Staken?
 
-- Ja. Sie müssen Ihr YFI unter [ygov.finance/stake] (https://ygov.finance/stake) in der Registerkarte v2 unter Governance V2 staken damit Ihre Stimmen zählen. Ab sofort können Sie ohne Staking abstimmen, aber Sie verschwenden Ihr Gas und es wird nicht gezählt, also stellen Sie sicher dass Sie zuerst YFI gestaked haben, wenn Sie abstimmen wollen.
+- Ja. Sie müssen Ihr YFI unter [ygov.finance/stake](https://ygov.finance/stake) in der Registerkarte v2 unter Governance V2 staken damit Ihre Stimmen zählen. Ab sofort können Sie ohne Staking abstimmen, aber Sie verschwenden Ihr Gas und es wird nicht gezählt, also stellen Sie sicher dass Sie zuerst YFI gestaked haben, wenn Sie abstimmen wollen.
 
 #### Was ist, wenn ich mein YFI vor dem Ende der Abstimmungssperre herausnehmen möchte?
 
@@ -329,7 +329,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### yDAO
 
-- Pokemol [site](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/).
+- Pokemol [Seite](https://pokemol.com/dao/0xcb46298767fb5d44c18313976c30d3eeb5071862/).
 - Forum [Beitrag](https://gov.yearn.finance/t/ydao-for-community-funding/2243).
 
 #### Was ist der Zweck von yDao?
@@ -353,13 +353,13 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
   - Shares Requested: Die Anzahl der beantragten Shares
   - Token Tribute: Der Betrag des YFI, der verpfändet wird \ (Sie müssen YFI freischalten\)
   - Loot: Die Anzahl der angeforderten Shares
-  - Nachdem Sie die beiden Transaktionen eingereicht haben und sich in der Warteschlange für neue Mitglieder befinden benötigen Sie einen Sponsor. Bitte kopieren Sie den Link zu Ihrem Vorschlag und teilen Sie uns mit, dass Sie am [yDAO Telegrammkanal] (https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) teilnehmen möchten.
+  - Nachdem Sie die beiden Transaktionen eingereicht haben und sich in der Warteschlange für neue Mitglieder befinden benötigen Sie einen Sponsor. Bitte kopieren Sie den Link zu Ihrem Vorschlag und teilen Sie uns mit, dass Sie am [yDAO Telegrammkanal](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) teilnehmen möchten.
 
 #### Wie kann ich eine Finanzierung beantragen?
 
-- Auf die gleiche Weise wie beim Beitritt, außer dass Sie statt auf "Mitglied" auf die Registerkarte "Finanzierung" klicken und die Details Ihres Antrags ausfüllen. Sie können im [Telegramm-Chat] (https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) fragen, wenn Sie Fragen haben.
+- Auf die gleiche Weise wie beim Beitritt, außer dass Sie statt auf "Mitglied" auf die Registerkarte "Finanzierung" klicken und die Details Ihres Antrags ausfüllen. Sie können im [Telegramm-Chat](https://t.me/joinchat/Qn1GPBv0y7lY1vAmRCB7KA) fragen, wenn Sie Fragen haben.
 
-#### Ich spreche kein Englisch, wann wird alles übersetzt?
+#### Ich spreche kein Englisch, wann wird alles ?
 
 - Wir arbeiten daran in andere Sprachen zu übersetzen, aber das wird Zeit brauchen. Vorerst können Sie Ihre Sprache in der globalen Sektion in [Discord](http://discord.yearn.finance/) wählen.
 
@@ -367,7 +367,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### Hat Yearn ein Manifest?
 
-- Einige Beitragende haben sich zusammengetan und einen Beitrag darüber geschrieben, wie sie über das Protokoll denken, und andere haben mitgemacht, um es zu unterstützen. Es ist [im Forum] verfügbar (https://gov.yearn.finance/t/how-we-think-about-yearn/).
+- Einige Beitragende haben sich zusammengetan und einen Beitrag darüber geschrieben, wie sie über das Protokoll denken, und andere haben mitgemacht, um es zu unterstützen. Es ist [im Forum](https://gov.yearn.finance/t/how-we-think-about-yearn/) verfügbar.
 
 ### Ist Andre Cronje für Yearn verantwortlich?
 
@@ -425,7 +425,6 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 - Wenn auch Sie zum Projekt beitragen möchten, wenden Sie sich einfach an unsere Community-Manager unter [Discord](http://discord.yearn.finance/)/[Telegramm](https://t.me/yearnfinance)/[Twitter](https://twitter.com/iearnfinance). Demnächst werden wir auch einen Leitfaden für Contributoren veröffentlichen.
 
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
 
 ### Haben Sie Stellenangebote?
 
@@ -449,13 +448,13 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### Ich habe meine ETH-Transaktion abgeschickt, aber da steht ausstehend? Wie kann ich das beheben?
 
-- Sie sollten immer darauf achten dass Sie Ihre Transaktionskosten(Gas) richtig einstellen, wenn Sie wollen dass eine Transaktion schnell durchgeführt wird. Prüfen Sie die aktuellen Gaspreise unter [Ethgasstation] (https://ethgasstation.info/) oder [gasnow] (https://www.gasnow.org/).
+- Sie sollten immer darauf achten dass Sie Ihre Transaktionskosten(Gas) richtig einstellen, wenn Sie wollen dass eine Transaktion schnell durchgeführt wird. Prüfen Sie die aktuellen Gaspreise unter [Ethgasstation](https://ethgasstation.info/) oder [gasnow](https://www.gasnow.org/).
 - Wenn Sie die MetaMask verwenden und Ihre Transaktion durchlaufen lassen, sie aber zu langsam läuft haben Sie die Möglichkeit sie zu beschleunigen, indem Sie unter "Aktivität" auf die Schaltfläche "Beschleunigen" unter Ihrer letzten ausstehenden Transaktion klicken. Dies sollte den gleichen TX noch einmal mit einem höheren Gaspreis senden, um ihn schneller bestätigt zu bekommen.
 - Wenn Sie alles versucht haben und Ihre Transaktion immer noch in der Schwebe ist können Sie das Problem beheben indem Sie eine Transaktion an die Nonce der ersten "stuck" Transaktion mit einem hohen Gaspreis senden, um die "stuck" Warteschlange zu überschreiben. Hier ist ein guter [Leitfaden](https://ethgasstation.info/blog/stuck-transaction-guide) der erklärt, wie man das macht.
 
 ### Warum ist die Rücknahmegebühr so hoch?
 
-- Wenn die Gebühren während der Nutzung des Yearn Ökosystems höher als normal sind, dann kann das an der Überlastung des Ethereum und den ungewöhnlich hohen Gaskosten liegen. Siehe [Ethgasstation] (https://ethgasstation.info/). Sie haben die Wahl: Warten Sie bis die Gaspreise fallen, oder geben Sie das Geld aus um Ihre Transaktion jetzt abzuwickeln.
+- Wenn die Gebühren während der Nutzung des Yearn Ökosystems höher als normal sind, dann kann das an der Überlastung des Ethereum und den ungewöhnlich hohen Gaskosten liegen. Siehe [Ethgasstation](https://ethgasstation.info/). Sie haben die Wahl: Warten Sie bis die Gaspreise fallen, oder geben Sie das Geld aus um Ihre Transaktion jetzt abzuwickeln.
 - Wenn die Gaspreise wahnsinnig hoch sind, bedeutet dies dass ein Fehler vorliegt und die Transaktion nicht bearbeitet werden kann. Zum Beispiel, wenn Sie versuchen einen Token einzuzahlen den Sie nicht haben, oder wenn es keine Deckung für einen Vertrag unter [http://yinsure.finance/](http://yinsure.finance/) gibt.
 
 ## Verwandte Projekte
@@ -463,7 +462,7 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### [Curve](https://www.curve.fi)
 
-- Curve ist ein Börsen-Liquiditätspool auf Ethereum \(wie [Uniswap] (https://app.uniswap.org/#/)\), der für \(1\) extrem effizienten Handel mit StableCoins \(2\) risikoarmes, zusätzliches Gebühreneinkommen für Liquiditätsanbieter, ohne Opportunitätskosten konzipiert wurde. Curve ermöglicht es Benutzern \(und intelligenten Kontrakten wie 1inch, Paraswap, Totle und Dex.ag\), zwischen  DAI und  USDC mit einem maßgeschneiderten Algorithmus mit geringer Slippage und niedrigen Gebühren der speziell für Stablecoins entwickelt wurde, zu handeln und Gebühren zu verdienen. Hinter den Kulissen wird der Liquiditätspool auch an das Compound-Protokoll oder yearn.finance geliefert, wo er noch mehr Einnahmen für die Liquiditätsanbieter generiert.
+- Curve ist ein Börsen-Liquiditätspool auf Ethereum \(wie [Uniswap](https://app.uniswap.org/#/)\), der für \(1\) extrem effizienten Handel mit StableCoins \(2\) risikoarmes, zusätzliches Gebühreneinkommen für Liquiditätsanbieter, ohne Opportunitätskosten konzipiert wurde. Curve ermöglicht es Benutzern \(und intelligenten Kontrakten wie 1inch, Paraswap, Totle und Dex.ag\), zwischen  DAI und  USDC mit einem maßgeschneiderten Algorithmus mit geringer Slippage und niedrigen Gebühren der speziell für Stablecoins entwickelt wurde, zu handeln und Gebühren zu verdienen. Hinter den Kulissen wird der Liquiditätspool auch an das Compound-Protokoll oder yearn.finance geliefert, wo er noch mehr Einnahmen für die Liquiditätsanbieter generiert.
 - Curve [FAQ](https://www.curve.fi/rootfaq).
 
 ### [Aave](https://app.aave.com/home)
@@ -506,24 +505,24 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### Statistik
 
-- [yieldfarming.info] (https://yieldfarming.info/)
-- yVault ROI-Rechner](https://py-earn.herokuapp.com/)
+- [yieldfarming.info](https://yieldfarming.info/)
+- [yVault ROI-Rechner](https://py-earn.herokuapp.com/)
 - [stats.finance/garn](https://stats.finance/yearn)
-- [feel-the-yearn] (https://feel-the-yearn.vercel.app/)
-- Erstmalige Verteilung [Dune Dashboard] (https://explore.duneanalytics.com/dashboard/yearn)
-- Abstimmungsstatistiken [Dune Dashboard] (https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
-- Vault-Statistiken [Dünen-Dashboard] (https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
+- [feel-the-yearn](https://feel-the-yearn.vercel.app/)
+- Erstmalige Verteilung [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
+- Abstimmungsstatistiken [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
+- Vault-Statistiken [Dünen-Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 
 ### Neueste Yearn Nachrichten
 
-- [yearn.finance] (https://twitter.com/iearnfinance) - Offizieller Yearn Twitter Account
-- [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
+- [yearn.finance Twitter](https://twitter.com/iearnfinance) - Offizieller Yearn Twitter Account
+- [AndreCronjeTech](https://twitter.com/AndreCronjeTech) - Andre Cronje Twitter
 - [Yearn Finance](https://medium.com/iearn) - Offizieller Blog
 
 ### Podcasts
 
 - [Unchained - Andre Cronje über YFI und dem Fair Launch Start: 'Ich bin faul'](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
-- [Andre Cronje und die Philosophie von Yearn Finance] (https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
+- [Andre Cronje und die Philosophie von Yearn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
 - [Der FTX-Podcast - Andre Cronje DeFI Architekt](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
 - [Zapper Community Call - mit Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
 - [In DeFi ist mein Geld tatsächlich mein Geld. Es ist ein schönes Konzept, aber es bringt Verantwortung mit sich - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
@@ -533,10 +532,10 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 - [Yearn Finance - Offizieller Blog](https://medium.com/iearn)
   - [Yinsure.finance: Ein neues Versicherungsprimitiv](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
-  - [Delegierte Vaults erklärt] (https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
+  - [Delegierte Vaults erklärt](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
   - [yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613?source=---------3------------------)
   - [Yearn Governance Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac?source=collection_home---6------2-----------------------)
-  - [YFI-Belohnungspool] (https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
+  - [YFI-Belohnungspool](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
   - [YFI](https://medium.com/iearn/yfi-df84573db81)
 
 ### Logos
