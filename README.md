@@ -32,7 +32,7 @@ Eine Versicherung die es den Nutzern ermöglicht eine Deckung gegen finanzielle 
 
 ## Governance
 
-Das Ökosystem von Yearn wird von YFI-Tokenhaltern kontrolliert, die Vorschläge zur Regelung des Ökosystems einreichen und darüber abstimmen. Vorschläge, die die Quorumsvoraussetzungen erfüllen \(&gt;20% der Token die im Governance Contract gestaked sind\) und eine Mehrheitsunterstützung generieren \(&gt;50% der Stimmen\), werden durch eine 9 Mitglieder umfassende Multi-Signature-Wallet mit mehreren Signaturen umgesetzt. Änderungen müssen von 6 der 9 Signaturen der Inhaber unterzeichnet werden damit sie umgesetzt werden können. Die Mitglieder der Multi-Sig-Wallet wurden von den YFI-Haltern gewählt und können sich bei zukünftigen Abstimmungen ändern. Bitte lesen Sie unsere FAQ für [die Liste der Multisig-Unterzeichner] (https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
+Das Ökosystem von Yearn wird von YFI-Tokenhaltern kontrolliert, die Vorschläge zur Regelung des Ökosystems einreichen und darüber abstimmen. Vorschläge, die die Quorumsvoraussetzungen erfüllen \(&gt;20% der Token die im Governance Contract gestaked sind\) und eine Mehrheitsunterstützung generieren \(&gt;50% der Stimmen\), werden durch eine 9 Mitglieder umfassende Multi-Signature-Wallet mit mehreren Signaturen umgesetzt. Änderungen müssen von 6 der 9 Signaturen der Inhaber unterzeichnet werden damit sie umgesetzt werden können. Die Mitglieder der Multi-Sig-Wallet wurden von den YFI-Haltern gewählt und können sich bei zukünftigen Abstimmungen ändern. Bitte lesen Sie unsere FAQ für [die Liste der Multisig-Unterzeichner](https://docs.yearn.finance/faq#who-are-the-9-multisig-signers).
 
 ## Kommunikationskanäle
 
