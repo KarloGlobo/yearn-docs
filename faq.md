@@ -463,22 +463,22 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 
 ### [Curve](https://www.curve.fi)
 
-- Curve ist ein Börsen-Liquiditätspool auf Ethereum \(wie [Uniswap] (https://app.uniswap.org/#/)\), der für \(1\) extrem effizienten Handel mit stabilen Münzen \(2\) risikoarmes, zusätzliches Gebühreneinkommen für Liquiditätsanbieter, ohne Opportunitätskosten, konzipiert wurde. Curve ermöglicht es Benutzern \(und intelligenten Kontrakten wie 1inch, Paraswap, Totle und Dex.ag\), zwischen dem DAI und der USDC mit einem maßgeschneiderten Algorithmus mit geringer Slippage und niedrigen Gebühren, der speziell für Stablecoins entwickelt wurde, zu handeln und Gebühren zu verdienen. Hinter den Kulissen wird der Liquiditätspool auch an das Compound-Protokoll oder yearn.finance geliefert, wo er noch mehr Einnahmen für die Liquiditätsanbieter generiert.
-- Kurve [FAQ](https://www.curve.fi/rootfaq).
+- Curve ist ein Börsen-Liquiditätspool auf Ethereum \(wie [Uniswap] (https://app.uniswap.org/#/)\), der für \(1\) extrem effizienten Handel mit StableCoins \(2\) risikoarmes, zusätzliches Gebühreneinkommen für Liquiditätsanbieter, ohne Opportunitätskosten konzipiert wurde. Curve ermöglicht es Benutzern \(und intelligenten Kontrakten wie 1inch, Paraswap, Totle und Dex.ag\), zwischen  DAI und  USDC mit einem maßgeschneiderten Algorithmus mit geringer Slippage und niedrigen Gebühren der speziell für Stablecoins entwickelt wurde, zu handeln und Gebühren zu verdienen. Hinter den Kulissen wird der Liquiditätspool auch an das Compound-Protokoll oder yearn.finance geliefert, wo er noch mehr Einnahmen für die Liquiditätsanbieter generiert.
+- Curve [FAQ](https://www.curve.fi/rootfaq).
 
 ### [Aave](https://app.aave.com/home)
 
-- Aave ist ein Open-Source-Protokoll ohne Freiheitsentzug, das die Schaffung von Geldmärkten ermöglicht. Die Benutzer können Einlagen verzinsen und Vermögenswerte ausleihen.
+- Aave ist ein non-custodial Open-Source-Protokoll, das die Schaffung von Geldmärkten ermöglicht. Die Benutzer können Einlagen verzinsen und Vermögenswerte ausleihen.
 
 ## Ressourcen
 
 ### Wo kann ich mehr über Yearn erfahren?
 
 - [Yearn lernen](https://www.learnyearn.finance/)
-- [Medium.com/erwerben](https://medium.com/iearn)
+- [Medium.com/earn](https://medium.com/iearn)
 - [yCosystem](https://ycosystem.info/)
 
-### Lists of Smart Contracts
+### Liste der SmartContracts
 
 - [https://gov.yearn.finance/t/yearn-contracts/1951](https://gov.yearn.finance/t/yearn-contracts/1951)
 - [https://etherscan.io/accounts/label/yearn-finance](https://etherscan.io/accounts/label/yearn-finance)
@@ -496,49 +496,49 @@ Wenn du denkst es könnte etwas verbessert werden oder du einen Bug gefunden has
 - [Strategy for USDC vault](https://etherscan.io/address/0xA30d1D98C502378ad61Fe71BcDc3a808CF60b897)
 - [DAI vault](https://etherscan.io/address/0xACd43E627e64355f1861cEC6d3a6688B31a6F952)
 
-### Registry of Tokens and Utility Contracts
+### Register für Token- und Utility-Contracts
 
 - [https://docs.yearn.finance/developers/deployed-contracts-registry](https://docs.yearn.finance/developers/deployed-contracts-registry)
 
-### Vaults Detail Reference
+### Detail-Referenz für Vaults
 
 - [https://vaults.finance/](https://vaults.finance/)
 
-### Statistics
+### Statistik
 
-- [yieldfarming.info](https://yieldfarming.info/)
-- [yVault ROI Calculator](https://py-earn.herokuapp.com/)
-- [stats.finance/yearn](https://stats.finance/yearn)
-- [Feel The Yearn](https://feel-the-yearn.vercel.app/)
-- Initial Distribution [Dune Dashboard](https://explore.duneanalytics.com/dashboard/yearn)
-- Voting Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
-- Vaults Stats [Dune Dashboard](https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
+- [yieldfarming.info] (https://yieldfarming.info/)
+- yVault ROI-Rechner](https://py-earn.herokuapp.com/)
+- [stats.finance/garn](https://stats.finance/yearn)
+- [feel-the-yearn] (https://feel-the-yearn.vercel.app/)
+- Erstmalige Verteilung [Dune Dashboard] (https://explore.duneanalytics.com/dashboard/yearn)
+- Abstimmungsstatistiken [Dune Dashboard] (https://explore.duneanalytics.com/public/dashboards/Lqnxzm7fa8NVhKC4kc37DDFPZgqXryaIjyLRYAYp)
+- Vault-Statistiken [Dünen-Dashboard] (https://explore.duneanalytics.com/public/dashboards/g0bGfgloeXBd9C18jpBjdXi5KkQjR7IXYqFRUnHk)
 
-### Latest Yearn News
+### Neueste Yearn Nachrichten
 
-- [yearn.finance](https://twitter.com/iearnfinance) - Offical Twitter of Yearn
+- [yearn.finance] (https://twitter.com/iearnfinance) - Offizieller Yearn Twitter Account
 - [AndreCronjeTech](https://twitter.com/AndreCronjeTech)
-- [Yearn Finance](https://medium.com/iearn) - Offical Blog
+- [Yearn Finance](https://medium.com/iearn) - Offizieller Blog
 
 ### Podcasts
 
-- [Unchained - Andre Cronje on YFI and the Fair Launch: ‘I’m Lazy’](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
-- [Andre Cronje and the Philosophy of Yearn Finance](https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
-- [The FTX Podcast - Andre Cronje DeFI Architect](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
-- [Zapper Community Call - With Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
-- [In DeFi My Money is Actually Mine. Its a Beautiful Concept But it Comes With Responsibilities - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
+- [Unchained - Andre Cronje über YFI und dem Fair Launch Start: 'Ich bin faul'](https://unchainedpodcast.com/andre-cronje-of-yearn-finance-on-yfi-and-the-fair-launch-im-lazy/)
+- [Andre Cronje und die Philosophie von Yearn Finance] (https://anchor.fm/hasu-research/episodes/6-Andre-Cronje-and-the-Philosophy-of-Yearn-Finance-ei4vds)
+- [Der FTX-Podcast - Andre Cronje DeFI Architekt](https://open.spotify.com/episode/6d14TJtQU7eB69azelpdeh)
+- [Zapper Community Call - mit Andre](https://www.youtube.com/watch?v=venoiaiVZ-U)
+- [In DeFi ist mein Geld tatsächlich mein Geld. Es ist ein schönes Konzept, aber es bringt Verantwortung mit sich - Andre Cronje](https://anchor.fm/camila-russo/episodes/In-DeFi-My-Money-is-Actually-Mine--Its-a-Beautiful-Concept-But-it-Comes-With-Responsibilities-Andre-Cronje-ehs3op)
 - [YFI: Farming the Farmers \| Andre Cronje](http://podcast.banklesshq.com/25-king-of-the-yield-farmers-andre-cronje)
 
 ### Blogs
 
-- [Yearn Finance - Offical Blog](https://medium.com/iearn)
-  - [Yinsure.finance: A new insurance primitive](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
-  - [Delegated Vaults Explained](https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
+- [Yearn Finance - Offizieller Blog](https://medium.com/iearn)
+  - [Yinsure.finance: Ein neues Versicherungsprimitiv](https://medium.com/iearn/yinsure-finance-a-new-insurance-primitive-77d5d4217896)
+  - [Delegierte Vaults erklärt] (https://medium.com/iearn/delegated-vaults-explained-fa81f1c3fce2)
   - [yearn.finance v2](https://medium.com/iearn/yearn-finance-v2-af2c6a6a3613?source=---------3------------------)
   - [Yearn Governance Forum](https://medium.com/iearn/yearn-governance-forum-7b7c9d0300ac?source=collection_home---6------2-----------------------)
-  - [YFI rewards pool](https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
+  - [YFI-Belohnungspool] (https://medium.com/iearn/yfi-rewards-pool-810ef9256ec6)
   - [YFI](https://medium.com/iearn/yfi-df84573db81)
 
 ### Logos
 
-- Can be found in the Discord under [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
+- Zu finden in Discord unter [\#media-resources](https://discord.com/channels/734804446353031319/736132884443955242/740325105904779326)
